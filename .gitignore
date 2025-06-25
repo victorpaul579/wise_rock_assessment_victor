@@ -6,6 +6,9 @@ venv/
 dist/
 build/
 
+#Environment
+.env
+
 # IDE/Editor folders
 .vscode/
 .idea/
