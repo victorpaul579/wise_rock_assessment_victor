@@ -1,0 +1,14 @@
+alembic
+
+# For data manipulation
+pandas
+
+# For connecting to PostgreSQL
+sqlalchemy
+psycopg2-binary
+
+# For handling API requests
+requests
+
+# For loading environment variables from .env file
+python-dotenv

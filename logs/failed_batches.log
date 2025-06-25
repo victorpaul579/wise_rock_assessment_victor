@@ -1,0 +1,157 @@
+2025-06-24 02:12:04,470 - ERROR - Batch 1 failed for table stg_wellview__job: invalid input syntax for type timestamp: ""
+LINE 3: ...-82f497cb20a6','6A43B3C27B844D40B85D4D4F9A83FDBE','','2013-0...
+                                                             ^
+
+2025-06-24 02:12:09,707 - ERROR - Batch 1 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(1c8757fc-d8f5-40c7-868e-82f497cb20a6) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:13,735 - ERROR - Batch 1 failed for table stg_wellview__jobreport: invalid input syntax for type timestamp: ""
+LINE 3: ...ACC03DE43158A392047C1E38014','','','','','','','','','2016-0...
+                                                             ^
+
+2025-06-24 02:12:17,816 - ERROR - Batch 1 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(d5be47e8-f898-4f73-b3a7-baf4b5d2e192) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:19,473 - ERROR - Batch 1 failed for table stg_wellview__jobreport: invalid input syntax for type timestamp: ""
+LINE 3: ...BD14B1B4CA3A54899AF5AD7EB11','','','','','','','','','2018-0...
+                                                             ^
+
+2025-06-24 02:12:24,222 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(53db1640-8109-49e3-9e49-610be6d87d4a) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:28,116 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(4674a57b-c3b6-439d-922f-5b1e416ab18c) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:31,819 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(bf21323f-ccbc-4057-8444-820a976fd81a) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:35,756 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(03fbff81-b588-4fb0-83ea-6e8e839855ba) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:39,558 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(5ac857f3-4387-4987-baa6-600efffdd9f3) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:40,929 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(423bd526-58c3-454b-b3b3-7b3906ce6f18) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 02:12:41,291 - ERROR - Batch 1 failed for table stg_wellview__wellheader: invalid input syntax for type timestamp: ""
+LINE 3: ...,'','USA','County 8','','District 7','Division 3','','2010-0...
+                                                             ^
+
+2025-06-24 02:12:48,550 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 02:12:48,551 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\pool\base.py", line 987, in _finalize_fairy
+    fairy._reset(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\pool\base.py", line 1433, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 703, in do_rollback
+    dbapi_connection.rollback()
+psycopg2.InterfaceError: connection already closed
+2025-06-24 03:00:00,090 - ERROR - Batch 1 failed for table stg_wellview__wellheader: invalid input syntax for type timestamp: ""
+LINE 3: ...,'','USA','County 8','','District 7','Division 3','','2010-0...
+                                                             ^
+
+2025-06-24 03:00:01,184 - ERROR - Batch 1 failed for table stg_wellview__job: insert or update on table "stg_wellview__job" violates foreign key constraint "stg_wellview__job_idwell_fkey"
+DETAIL:  Key (idwell)=(1c8757fc-d8f5-40c7-868e-82f497cb20a6) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:13,145 - ERROR - Batch 1 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(1c8757fc-d8f5-40c7-868e-82f497cb20a6) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:13,701 - ERROR - Batch 2 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(df8d85cb-9782-4d9e-aea7-f01b080a0c16) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:13,701 - ERROR - Batch 4 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(c61d06dd-8f1a-4aba-8fce-95a606507d21) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:13,714 - ERROR - Batch 3 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(d5be47e8-f898-4f73-b3a7-baf4b5d2e192) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:30,915 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(53db1640-8109-49e3-9e49-610be6d87d4a) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:30,936 - ERROR - Batch 2 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(4674a57b-c3b6-439d-922f-5b1e416ab18c) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:30,946 - ERROR - Batch 3 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(bf21323f-ccbc-4057-8444-820a976fd81a) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:30,984 - ERROR - Batch 4 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(03fbff81-b588-4fb0-83ea-6e8e839855ba) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:31,107 - ERROR - Batch 6 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(423bd526-58c3-454b-b3b3-7b3906ce6f18) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:31,108 - ERROR - Batch 5 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(5ac857f3-4387-4987-baa6-600efffdd9f3) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:00:39,157 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 03:21:05,417 - ERROR - Batch 1 failed for table stg_wellview__wellheader: invalid input syntax for type numeric: ""
+LINE 3: ...'','','','County 10','','','','','','Field 23','','','','','...
+                                                             ^
+
+2025-06-24 03:21:06,359 - ERROR - Batch 1 failed for table stg_wellview__job: insert or update on table "stg_wellview__job" violates foreign key constraint "stg_wellview__job_idwell_fkey"
+DETAIL:  Key (idwell)=(1c8757fc-d8f5-40c7-868e-82f497cb20a6) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:19,028 - ERROR - Batch 1 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(1c8757fc-d8f5-40c7-868e-82f497cb20a6) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:19,582 - ERROR - Batch 4 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(c61d06dd-8f1a-4aba-8fce-95a606507d21) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:19,582 - ERROR - Batch 2 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(df8d85cb-9782-4d9e-aea7-f01b080a0c16) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:19,620 - ERROR - Batch 3 failed for table stg_wellview__jobreport: insert or update on table "stg_wellview__jobreport" violates foreign key constraint "stg_wellview__jobreport_idwell_fkey"
+DETAIL:  Key (idwell)=(d5be47e8-f898-4f73-b3a7-baf4b5d2e192) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:38,344 - ERROR - Batch 1 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(53db1640-8109-49e3-9e49-610be6d87d4a) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:38,350 - ERROR - Batch 2 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(4674a57b-c3b6-439d-922f-5b1e416ab18c) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:38,387 - ERROR - Batch 4 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(03fbff81-b588-4fb0-83ea-6e8e839855ba) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:38,387 - ERROR - Batch 3 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(bf21323f-ccbc-4057-8444-820a976fd81a) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:38,520 - ERROR - Batch 5 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(5ac857f3-4387-4987-baa6-600efffdd9f3) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:38,540 - ERROR - Batch 6 failed for table stg_wellview__surveypoint: insert or update on table "stg_wellview__surveypoint" violates foreign key constraint "stg_wellview__surveypoint_well_id_fkey"
+DETAIL:  Key (well_id)=(423bd526-58c3-454b-b3b3-7b3906ce6f18) is not present in table "stg_wellview__wellheader".
+
+2025-06-24 03:21:53,188 - ERROR - Batch 1 failed for table stg_wiserock__note: integer out of range
+
+2025-06-24 03:27:05,117 - ERROR - Batch 1 failed for table stg_wiserock__note: integer out of range
+
+2025-06-24 03:34:53,984 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 03:36:20,078 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 03:37:58,382 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 03:41:09,127 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 03:47:05,250 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 03:53:49,678 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 04:03:42,616 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 08:51:13,739 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 09:02:24,483 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 09:07:16,222 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 16:01:32,915 - ERROR - Batch 1 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 16:07:33,904 - ERROR - Batch 44 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+Batch 3 (Table: stg_wiserock__note) Attempt 1 failed: (psycopg2.InterfaceError) connection already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)

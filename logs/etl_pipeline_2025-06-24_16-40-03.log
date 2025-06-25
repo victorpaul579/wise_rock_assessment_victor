@@ -1,0 +1,6 @@
+2025-06-24 16:40:03,913 - INFO - ETL Pipeline Execution Started
+2025-06-24 17:04:21,656 - INFO - API Pipeline Started
+2025-06-24 17:06:48,646 - ERROR - Batch 3 (Table: stg_wiserock__note) Attempt 1 failed: (psycopg2.InterfaceError) connection already closed
+(Background on this error at: https://sqlalche.me/e/20/rvf5)
+2025-06-24 17:45:33,833 - INFO - API Pipeline Completed
+2025-06-24 17:45:33,846 - INFO - ETL Pipeline Execution Finished Successfully

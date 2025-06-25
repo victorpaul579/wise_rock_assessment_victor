@@ -1,0 +1,15 @@
+2025-06-24 16:06:52,142 - INFO - ETL Pipeline Execution Started
+2025-06-24 16:06:52,145 - INFO - API Pipeline Started
+2025-06-24 16:07:33,904 - ERROR - Batch 44 failed for table stg_wiserock__note: SSL error: sslv3 alert bad record mac
+
+2025-06-24 16:07:33,906 - ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\pool\base.py", line 987, in _finalize_fairy
+    fairy._reset(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\pool\base.py", line 1433, in _reset
+    pool._dialect.do_rollback(self)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 703, in do_rollback
+    dbapi_connection.rollback()
+psycopg2.InterfaceError: connection already closed
+2025-06-24 16:07:33,915 - INFO - API Pipeline Completed
+2025-06-24 16:07:33,916 - INFO - ETL Pipeline Execution Finished Successfully

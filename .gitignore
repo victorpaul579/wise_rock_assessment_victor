@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# IDE/Editor folders
+.vscode/
+.idea/
