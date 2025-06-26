@@ -87,8 +87,6 @@ The script will provide detailed output in the console, indicating the status of
 Key Design Decisions
 This framework was built with several key professional data engineering principles in mind:
 
-Idempotency: The pipeline is designed to be safely re-runnable. The main.py orchestrator calls a truncate_table function before each load. This ensures that each run starts with a clean slate, preventing duplicate data and errors on subsequent executions. This is the standard, reliable pattern for staging data.
-
 Dependency Management: The loading order for both CSV and API tables is explicitly defined. This guarantees that parent tables (e.g., stg_wiserock_user) are always populated before their dependent child tables (e.g., stg_wiserock_note), satisfying all foreign key constraints.
 
 Resilience & Performance:
